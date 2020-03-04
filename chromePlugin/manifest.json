@@ -1,0 +1,24 @@
+{
+  "name": "135编辑器去除vip限制",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "让你畅快使用不能点击的vip素材",
+  "icons": {
+    "16": "1.png",
+    "48": "1.png",
+    "128": "1.png"
+  },
+  "browser_action": {
+    "default_icon": "1.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.135editor.com/*"
+      ],
+      "js": [
+        "jquery.min.js", "script.js"
+      ]
+    }
+  ]
+}
