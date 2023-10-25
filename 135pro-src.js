@@ -15,7 +15,7 @@ var timer = setInterval(() => {
           }, 1000);
       })
     clearInterval(timer);
-    console.log('11111发现dom editor-template');
+    console.log('发现dom editor-template');
     var mask = document.querySelector(".g-view-mask");
     mask && mask.parentElement.removeChild(mask);
 
