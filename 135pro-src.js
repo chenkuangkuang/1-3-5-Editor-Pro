@@ -7,7 +7,7 @@ var timer = setInterval(() => {
   times++;
   var con = document.querySelector("#editor-template");
   if (con) {
-    //   左上角面板点击，重新绑定生成悬浮复制按钮
+      // 左上角面板点击，重新绑定生成悬浮复制按钮
       $("#style-categories").on("click", function(e){
           console.log('面板被点击22',);
           setTimeout(() => {
